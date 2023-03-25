@@ -5,11 +5,9 @@ import hamburger from '../images/icon-hamburger.svg'
 
 export const Header = () => {
   return (
-    <>
-      <header className="flex justify justify-between p-4 bg-white">
-        <img src={logo} alt="" />
-        <img src={hamburger} alt="" />
-      </header>
-    </>
+    <header className="flex justify justify-between p-4 bg-white items-center">
+      <img src={logo} alt="" />
+      <img src={hamburger} alt="" />
+    </header>
   )
 }

@@ -18,6 +18,15 @@ module.exports = {
           'very-light-gray': 'hsl(0, 0%, 98%)',
         },
       },
+      backgroundImage: (theme) => ({
+        'header-desktop': "url('../images/bg-intro-desktop.svg')",
+        'header-mobile': "url('../images/bg-intro-mobile.svg')",
+        'image-mockups': "url('../images/image-mockups.png')",
+      }),
+      backgroundSize: {
+        'custom-mobile-header-size': '100% 50%',
+        'custom-mobile-mockup-size': 'auto 60%',
+      },
     },
   },
   plugins: [],
