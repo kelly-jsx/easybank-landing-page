@@ -33,7 +33,7 @@ export const Footer = () => (
       Request Invite
     </button>
     <p className="text-neutral-grayish-blue">© Easybank. All Rights Reserved</p>
-    <div className="attribution">
+    <div className="attribution text-neutral-grayish-blue">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
