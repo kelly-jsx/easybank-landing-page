@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className="bg-header-mobile w-full h-full bg-custom-mobile-header-size bg-no-repeat absolute"></div>
       <div className="bg-image-mockups absolute z-20 w-full h-full bg-no-repeat bg-top -top-44 bg-custom-mobile-mockup-size"></div>
       {/* <div className="px-4 gap-4 h-screen flex flex-col items-center relative z-20 justify-end"> */}
-      <div className="h-screen relative z-20 px-4">
+      <div className="h-screen relative z-20 px-4 shadow-sm">
         <div className="h-full flex flex-col justify-end">
           <div className="h-3/5 flex flex-col justify-center items-center text-center gap-5">
             <h1 className="text-4xl text-primary-dark-blue">
