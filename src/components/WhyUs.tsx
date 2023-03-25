@@ -36,7 +36,7 @@ export const WhyUs = () => {
   ]
 
   return (
-    <section className="text-center bg-neutral-very-light-gray px-4 flex flex-col gap-4 py-20 shadow-sm">
+    <section className="text-center bg-neutral-light-grayish-blue px-4 flex flex-col gap-4 py-20 shadow-sm">
       <h1 className="text-4xl text-primary-dark-blue">Why choose Easybank?</h1>
       <p className="text-neutral-grayish-blue text-sm mb-6">
         We leverage Open Banking to turn your bank account into your financial

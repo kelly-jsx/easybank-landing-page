@@ -36,7 +36,7 @@ export const Articles = () => {
   ]
 
   return (
-    <section className="text-center bg-white px-4 flex flex-col gap-8 py-20">
+    <section className="text-center bg-neutral-very-light-gray px-4 flex flex-col gap-8 py-20">
       <h1 className="text-4xl text-primary-dark-blue">Latest Articles</h1>
       {articlesData.map((item, index) => (
         <Article
