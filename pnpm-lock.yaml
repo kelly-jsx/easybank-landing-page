@@ -16,6 +16,7 @@ specifiers:
   gatsby-source-filesystem: ^5.8.0
   gatsby-transformer-sharp: ^5.8.0
   postcss: ^8.4.21
+  prettier: ^2.8.7
   react: ^18.2.0
   react-dom: ^18.2.0
   react-helmet: ^6.1.0
@@ -33,6 +34,7 @@ dependencies:
   gatsby-plugin-sharp: 5.8.0_gatsby@5.8.0
   gatsby-source-filesystem: 5.8.0_gatsby@5.8.0
   gatsby-transformer-sharp: 5.8.0_dh5i24yw3zb3vghtvixbkifx4u
+  prettier: 2.8.7
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-helmet: 6.1.0_react@18.2.0
@@ -7710,6 +7712,12 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
 
   /pretty-bytes/5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
