@@ -8,8 +8,6 @@ export const Header = () => {
     <>
       <header className="flex justify justify-between p-4 bg-white">
         <img src={logo} alt="" />
-        <h1>test</h1>
-        <h1>test</h1>
         <img src={hamburger} alt="" />
       </header>
     </>
