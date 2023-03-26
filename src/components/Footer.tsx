@@ -14,11 +14,21 @@ export const Footer = () => (
       <img src={logo} alt="" />
     </div>
     <div className="flex gap-4">
-      <img src={facebook} alt="facebook" />
-      <img src={youtube} alt="youtube" />
-      <img src={twitter} alt="twitter" />
-      <img src={pinterest} alt="pinterest" />
-      <img src={instagram} alt="instagram" />
+      <a href="#">
+        <img src={facebook} alt="facebook" />
+      </a>
+      <a href="#">
+        <img src={youtube} alt="youtube" />
+      </a>
+      <a href="#">
+        <img src={twitter} alt="twitter" />
+      </a>
+      <a href="#">
+        <img src={pinterest} alt="pinterest" />
+      </a>
+      <a href="#">
+        <img src={instagram} alt="instagram" />
+      </a>
     </div>
     <ul className="flex flex-col text-center text-neutral-light-grayish-blue gap-2">
       <a href="#">About Us</a>
@@ -38,7 +48,11 @@ export const Footer = () => (
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
       </a>
-      . Coded by <a href="#">Your Name Here</a>.
+      . Coded by
+      <a href="https://github.com/kelly-jsx" target="_blank">
+        Kelly-JSX
+      </a>
+      .
     </div>
   </footer>
 )
