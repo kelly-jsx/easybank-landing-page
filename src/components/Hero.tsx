@@ -3,7 +3,7 @@ import React from 'react'
 export const Hero = () => {
   return (
     <section className="text-center relative">
-      <div className="bg-header-mobile w-full h-full bg-custom-mobile-header-size bg-no-repeat absolute"></div>
+      <div className="bg-header-mobile w-full h-full bg-custom-mobile-header-size bg-no-repeat absolute lg:hidden"></div>
       <div className="bg-image-mockups absolute z-20 w-full h-full bg-no-repeat bg-top -top-44 bg-custom-mobile-mockup-size"></div>
       {/* <div className="px-4 gap-4 h-screen flex flex-col items-center relative z-20 justify-end"> */}
       <div className="h-screen relative z-20 px-4 shadow-sm">
