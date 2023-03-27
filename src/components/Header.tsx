@@ -10,17 +10,29 @@ export const Header = () => {
 
   return (
     <>
-      <header className="flex justify justify-between p-4 bg-white items-center sticky top-0 z-50">
+      <header className="flex justify justify-between lg:justify-around p-4 bg-white items-center sticky top-0 z-50">
         <img src={logo} alt="" />
-        {isOpen ? (
-          <button onClick={handleOpen}>
-            <img src={close} alt="" />
-          </button>
-        ) : (
-          <button onClick={handleOpen}>
-            <img src={hamburger} alt="" />
-          </button>
-        )}
+        <div className="gap-6 text-neutral-grayish-blue text-xs hidden lg:flex">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+        <button className="text-neutral-light-grayish-blue bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan font-bold rounded-full py-2 px-5 w-fit hidden lg:block text-xs">
+          Request Invite
+        </button>
+        <div className="block lg:hidden">
+          {isOpen ? (
+            <button onClick={handleOpen}>
+              <img src={close} alt="" />
+            </button>
+          ) : (
+            <button onClick={handleOpen}>
+              <img src={hamburger} alt="" />
+            </button>
+          )}
+        </div>
       </header>
 
       {isOpen && (
